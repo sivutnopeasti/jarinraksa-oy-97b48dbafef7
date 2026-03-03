@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JarinRaksa Oy | Rakennusyritys Tampere</title>
+  <meta name="description" content="JarinRaksa Oy toteuttaa keittiö-, kylpyhuone- ja pintaremontit Tampereen alueella. Pyydä maksuton tarjous. Vastaamme arkipäivisin 24 tunnin kuluessa." />
+  <meta property="og:title" content="JarinRaksa Oy | Rakennusyritys Tampere" />
+  <meta property="og:description" content="Keittiö-, kylpyhuone- ja pintaremontit Tampereella. Pyydä maksuton tarjous." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "JarinRaksa Oy",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Aleksanterinkatu 20",
+      "addressLocality": "Tampere",
+      "postalCode": "33100",
+      "addressCountry": "FI"
+    },
+    "telephone": "040 0450902",
+    "email": "gabriel.mansnerus@gmail.com"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Päänavigaatio">
+      <a href="index.html" class="nav-logo" aria-label="JarinRaksa Oy etusivu">
+        <img
+          src="https://i.ibb.co/67ThXXGW/Gemini-Generated-Image-q3wwb1q3wwb1q3ww.jpg"
+          alt="JarinRaksa Oy logo"
+          class="logo-img"
+        />
+        <span class="logo-text">JarinRaksa Oy</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#palvelut">Palvelut</a></li>
+        <li><a href="#referenssit">Referenssit</a></li>
+        <li><a href="#meista">Meistä</a></li>
+        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+      </ul>
+
+      <a href="#tarjouspyynto" class="btn btn-nav">Pyydä tarjous</a>
+
+      <button class="hamburger" aria-label="Avaa valikko" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="#palvelut">Palvelut</a></li>
+        <li><a href="#referenssit">Referenssit</a></li>
+        <li><a href="#meista">Meistä</a></li>
+        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+      </ul>
+      <a href="#tarjouspyynto" class="btn btn-primary mobile-cta">Pyydä tarjous</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Esittely">
+      <div class="hero-bg">
+        <img
+          src="https://i.ibb.co/KxYvcXBw/Gemini-Generated-Image-t5avsft5avsft5av.jpg"
+          alt="Valmis keittiöremontti"
+          class="hero-bg-img"
+          loading="eager"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Tampere · Remonttipalvelu</p>
+        <h1>Remontti valmiiksi.<br/>Sovitussa ajassa.</h1>
+        <p class="hero-lead">Keittiöt, kylpyhuoneet ja pintaremontit kokonaisurakkana suunnittelusta luovutukseen.</p>
+        <div class="hero-actions">
+          <a href="#tarjouspyynto" class="btn btn-primary">Pyydä maksuton tarjous</a>
+          <a href="#referenssit" class="btn btn-outline">Katso työnäytteet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <section class="stats-bar" aria-label="Tunnusluvut">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="150">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">valmistunutta kohdetta</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-suffix">v</span>
+          <span class="stat-label">vuotta alalla</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="48">0</span>
+          <span class="stat-suffix">h</span>
+          <span class="stat-label">Vastausaika tarjouspyyntöihin</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">kohteista luovutettu ajallaan</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PALVELUT / FEATURE GRID -->
+    <section class="palvelut section" id="palvelut" aria-labelledby="palvelut-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="palvelut-heading">Palvelumme</h2>
+          <p class="section-sub">Remontit pienestä pintaremontista täysimittaiseen saneeraukseen.</p>
+        </div>
+        <div class="feature-grid">
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 40h36M10 40V20l14-12 14 12v20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="19" y="28" width="10" height="12" rx="1" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3>Keittiöremontti</h3>
+            <p>Kalusteiden vaihto, tasoitetyöt, uudet pinnat ja kodinkoneiden asennus. Remontin laajuus suunnitellaan ja sovitaan aina kohteen ja toiveidesi mukaan.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="8" width="32" height="32" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M8 20h32M20 8v32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="33" cy="33" r="4" fill="currentColor" opacity=".25"/>
+              </svg>
+            </div>
+            <h3>Kylpyhuonesaneeraus</h3>
+            <p>Vedeneristys, laatoitus, kalusteiden asennus ja uudet putkiläpiviennit. Vedeneristys tehdään aina voimassa olevien määräysten ja hyvän rakennustavan mukaan.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 36V16l8-8h16v28H12z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M20 8v8h-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 24h12M18 30h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Pintaremontti</h3>
+            <p>Maalaus, tapetointi, lattiapinnoitteiden uusinta ja listoitus. Sopii asuinkohteisiin ja liiketiloihin.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 36h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="14" y="12" width="20" height="24" rx="1" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M22 36V30h4v6" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M19 20h10M19 25h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Lattia- ja parkettityöt</h3>
+            <p>Laminaatin, parketin ja vinyylilattian asennus. Vanhan lattian purku ja pohjan tasaus kuuluu urakkaan.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6l-16 9v18l16 9 16-9V15L24 6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M24 6v36M8 15l16 9 16-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Eteisen ja makuuhuoneen remontti</h3>
+            <p>Liukuovikaapistot, kipsilevytyöt, uudet ovet ja ovenkarmit.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 14v10l6 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Avaimet käteen -urakat</h3>
+            <p>Aikataulutus, alihankkijat ja loppusiivous sisältyvät urakkaan. Yksi yhteyshenkilö koko projektin ajan.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENSSIT / GALLERY -->
+    <section class="referenssit section" id="referenssit" aria-labelledby="ref-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="ref-heading">Valmistuneita kohteita</h2>
+          <p class="section-sub">Tutustu valmiisiin remonttikohteisiimme.</p>
+        </div>
+        <div class="masonry-grid">
+
+          <div class="masonry-card">
+            <img
+              src="https://i.ibb.co/5hvSSRyw/Gemini-Generated-Image-x80a40x80a40x80a-1-1.jpg"
+              alt="Keittiöremontti, puukaapit ja marmoripinnat"
+              loading="lazy"
+            />
+            <div class="masonry-overlay">
+              <span class="masonry-title">Keittiöremontti</span>
+              <span class="masonry-location">Tampere, Kaleva</span>
+            </div>
+          </div>
+
+          <div class="masonry-card">
+            <img
+              src="https://i.ibb.co/VYShNXFV/Gemini-Generated-Image-x3xamlx3xamlx3xa-1.jpg"
+              alt="Kylpyhuonesaneeraus, kivilaatta ja lasisuihku"
+              loading="lazy"
+            />
+            <div class="masonry-overlay">
+              <span class="masonry-title">Kylpyhuonesaneeraus</span>
+              <span class="masonry-location">Tampere, Hervanta</span>
+            </div>
+          </div>
+
+          <div class="masonry-card">
+            <img
+              src="https://i.ibb.co/sdC52DYf/Gemini-Generated-Image-l8hpevl8hpevl8hp-1.jpg"
+              alt="Eteisremontti, parkettilattia ja kullatut yksityiskohdat"
+              loading="lazy"
+            />
+            <div class="masonry-overlay">
+              <span class="masonry-title">Eteisremontti</span>
+              <span class="masonry-location">Tampere, Pyynikki</span>
+            </div>
+          </div>
+
+          <div class="masonry-card">
+            <img
+              src="https://i.ibb.co/KxYvcXBw/Gemini-Generated-Image-t5avsft5avsft5av.jpg"
+              alt="Keittiöremontti, harmaat kaapit ja vaalea parkettilattia"
+              loading="lazy"
+            />
+            <div class="masonry-overlay">
+              <span class="masonry-title">Keittiöremontti</span>
+              <span class="masonry-location">Tampere, Tammela</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TAKUU-OSIO -->
+    <section class="takuu section" aria-labelledby="takuu-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="takuu-heading">Palvelulupaukset</h2>
+        </div>
+        <div class="takuu-grid">
+
+          <div class="takuu-item">
+            <div class="takuu-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6l-14 6v12c0 9 6 17 14 20 8-3 14-11 14-20V12L24 6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M17 24l5 5 9-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>2 vuoden takuu töistä</h3>
+            <p>Rakennusurakan takuuaika on 2 vuotta luovutuksesta. Virheellinen työ korjataan veloituksetta.</p>
+          </div>
+
+          <div class="takuu-item">
+            <div class="takuu-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 14v10l6 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Aikataulu kirjataan sopimukseen</h3>
+            <p>Aloituspäivä ja valmistumispäivä sovitaan kirjallisesti. Viivästyksistä ilmoitetaan heti.</p>
+          </div>
+
+          <div class="takuu-item">
+            <div class="takuu-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 24h20M14 18h20M14 30h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3>Tarjous eriteltynä</h3>
+            <p>Jokainen tarjous erittelee materiaalit, työn osuuden ja aikataulun selkeästi.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MEISTÄ -->
+    <section class="meista section" id="meista" aria-labelledby="meista-heading">
+      <div class="container meista-layout">
+        <div class="meista-text">
+          <h2 id="meista-heading">JarinRaksa Oy</h2>
+          <p>JarinRaksa Oy toimii Tampereella ja on erikoistunut asuntojen ja omakotitalojen sisäremontteihin. Keittiöt, kylpyhuoneet ja pintaremontit ovat pääasiallista osaamistamme.</p>
+          <p>Käsittelemme tarjouspyynnöt arkipäivisin. Ennen lopullisen tarjouksen antoa teemme maksuttoman kartoituskäynnin paikan päällä. Näin varmistamme tarkan ja realistisen hinnan.</p>
+          <div class="meista-contact">
+            <a href="tel:0400450902" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8C7.8 13.2 9.8 15.2 12.2 16.4L14 14.6C14.2 14.4 14.6 14.4 14.8 14.6C15.8 15 16.9 15.2 18 15.2C18.6 15.2 19 15.6 19 16.2V18C19 18.6 18.6 19 18 19C10.8 19 5 13.2 5 6C5 5.4 5.4 5 6 5H7.8C8.4 5 8.8 5.4 8.8 6C8.8 7.1 9 8.2 9.4 9.2C9.5 9.5 9.4 9.8 9.2 10L6.6 10.8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              040 0450902
+            </a>
+            <a href="mailto:gabriel.mansnerus@gmail.com" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              gabriel.mansnerus@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="meista-image">
+          <img
+            src="https://i.ibb.co/5hvSSRyw/Gemini-Generated-Image-x80a40x80a40x80a-1-1.jpg"
+            alt="Valmis keittiöremontti"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- TARJOUSPYYNTÖ -->
+    <section class="tarjouspyynto section" id="tarjouspyynto" aria-labelledby="form-heading">
+      <div class="container">
+        <div class="form-wrapper">
+          <div class="form-intro">
+            <h2 id="form-heading">Pyydä maksuton tarjous</h2>
+            <p>Kerro lyhyesti mitä remonttia suunnittelet. Vastaamme tarjouspyyntöihin 24 tunnin kuluessa arkipäivisin.</p>
+            <div class="form-details">
+              <div class="form-detail-item">
+                <strong>Kartoituskäynti</strong>
+                <span>Maksuton. Sovimme ajan yhteydenoton jälkeen.</span>
+              </div>
+              <div class="form-detail-item">
+                <strong>Sijainti</strong>
+                <span>Aleksanterinkatu 20, 33100 Tampere</span>
+              </div>
+              <div class="form-detail-item">
+                <strong>Puhelin</strong>
+                <span><a href="tel:0400450902">040 0450902</a></span>
+              </div>
+            </div>
+          </div>
+
+          <form action="https://formsubmit.co/gabriel.mansnerus@gmail.com"
+            method="POST"
+            class="contact-form"
+            id="contact-form"
+            novalidate
+            aria-label="Tarjouspyyntölomake"
+          >
+  <input type="hidden" name="_subject" value="Yhteydenotto – JarinRaksa Oy">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nimi">Nimi *</label>
+                <input type="text" id="nimi" name="nimi" required autocomplete="name" placeholder="Etunimi Sukunimi" />
+              </div>
+              <div class="form-group">
+                <label for="puhelin">Puhelin *</label>
+                <input type="tel" id="puhelin" name="puhelin" required autocomplete="tel" placeholder="040 0000000" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Sähköposti</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="sinun@email.fi" />
+            </div>
+
+            <div class="form-group">
+              <label for="kohde">Kohteen tyyppi</label>
+              <select id="kohde" name="kohde">
+                <option value="">Valitse kohde</option>
+                <option value="keittiö">Keittiöremontti</option>
+                <option value="kylpyhuone">Kylpyhuonesaneeraus</option>
+                <option value="pintaremontti">Pintaremontti</option>
+                <option value="lattia">Lattia- ja parkettityöt</option>
+                <option value="eteinen">Eteinen tai makuuhuone</option>
+                <option value="muu">Muu / Useampi kohde</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="viesti">Kerro lisää *</label>
+              <textarea id="viesti" name="viesti" rows="5" required placeholder="Esim. 'Kylpyhuone 5 m², haluamme uuden suihkunurkkauksen ja lattialämmityksen. Kohde Tampere.'"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Lähetä tarjouspyyntö</button>
+
+            <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="yhteystiedot">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img
+          src="https://i.ibb.co/67ThXXGW/Gemini-Generated-Image-q3wwb1q3wwb1q3ww.jpg"
+          alt="JarinRaksa Oy logo"
+          class="logo-img footer-logo"
+        />
+        <span class="footer-logo-text">JarinRaksa Oy</span>
+        <p class="footer-tagline">Sisäremontit Tampereella</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Yhteystiedot</h4>
+        <address>
+          <p>Aleksanterinkatu 20<br/>33100 Tampere</p>
+          <p><a href="tel:0400450902">040 0450902</a></p>
+          <p><a href="mailto:gabriel.mansnerus@gmail.com">gabriel.mansnerus@gmail.com</a></p>
+        </address>
+      </div>
+
+      <div class="footer-col">
+        <h4>Palvelut</h4>
+        <ul>
+          <li>Keittiöremontti</li>
+          <li>Kylpyhuonesaneeraus</li>
+          <li>Pintaremontti</li>
+          <li>Lattia- ja parkettityöt</li>
+          <li>Avaimet käteen -urakat</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Pyydä maksuton tarjous</h4>
+        <p>Vastaamme 24 tunnin kuluessa arkipäivisin.</p>
+        <a href="#tarjouspyynto" class="btn btn-outline btn-sm">Tarjouspyyntö</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 JarinRaksa Oy · Tampere</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

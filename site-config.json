@@ -1,0 +1,46 @@
+{
+  "site_id": "97b48dbafef7",
+  "repo": "sivutnopeasti/jarinraksa-oy-97b48dbafef7",
+  "company": "JarinRaksa Oy",
+  "email": "gabriel.mansnerus@gmail.com",
+  "issue_number": 36,
+  "images": {
+    "logo": {
+      "url": "https://i.ibb.co/67ThXXGW/Gemini-Generated-Image-q3wwb1q3wwb1q3ww.jpg",
+      "alt": "JarinRaksa Oy logo"
+    },
+    "hero": {
+      "url": "https://i.ibb.co/KxYvcXBw/Gemini-Generated-Image-t5avsft5avsft5av.jpg",
+      "alt": "Valmis keittiöremontti"
+    },
+    "image-1": {
+      "url": "https://i.ibb.co/5hvSSRyw/Gemini-Generated-Image-x80a40x80a40x80a-1-1.jpg",
+      "alt": "Keittiöremontti, puukaapit ja marmoripinnat"
+    },
+    "image-2": {
+      "url": "https://i.ibb.co/VYShNXFV/Gemini-Generated-Image-x3xamlx3xamlx3xa-1.jpg",
+      "alt": "Kylpyhuonesaneeraus, kivilaatta ja lasisuihku"
+    },
+    "image-3": {
+      "url": "https://i.ibb.co/sdC52DYf/Gemini-Generated-Image-l8hpevl8hpevl8hp-1.jpg",
+      "alt": "Eteisremontti, parkettilattia ja kullatut yksityiskohdat"
+    },
+    "image-4": {
+      "url": "https://i.ibb.co/KxYvcXBw/Gemini-Generated-Image-t5avsft5avsft5av.jpg",
+      "alt": "Keittiöremontti, harmaat kaapit ja vaalea parkettilattia"
+    },
+    "image-5": {
+      "url": "https://i.ibb.co/5hvSSRyw/Gemini-Generated-Image-x80a40x80a40x80a-1-1.jpg",
+      "alt": "Valmis keittiöremontti"
+    }
+  },
+  "texts": {
+    "h1": "Remontti valmiiksi.Sovitussa ajassa.",
+    "h2_1": "Palvelumme",
+    "h2_2": "Valmistuneita kohteita",
+    "h2_3": "Palvelulupaukset",
+    "h2_4": "JarinRaksa Oy",
+    "h2_5": "Pyydä maksuton tarjous",
+    "hero_p": "Keittiöt, kylpyhuoneet ja pintaremontit kokonaisurakkana suunnittelusta luovutukseen."
+  }
+}
